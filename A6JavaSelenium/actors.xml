@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  		<run>
+  				<include name="BFI"></include>
+  				<include name="TFI"></include>
+  				<exclude name="MFI"></exclude>
+  		</run>
+  </groups>
+    <classes>
+      <class name="org.automation.GroupExecutionClasses.SRK"/>
+      <class name="org.automation.GroupExecutionClasses.AlluArjun"/>
+      <class name="org.automation.GroupExecutionClasses.Bramha"/>
+      <class name="org.automation.GroupExecutionClasses.Ritesh"/>
+      <class name="org.automation.GroupExecutionClasses.Yash"/>
+      <class name="org.automation.GroupExecutionClasses.DLQ"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

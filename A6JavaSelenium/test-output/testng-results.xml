@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<test> Test has started]]>
+    </line>
+    <line>
+      <![CDATA[TestCase addToCart has started]]>
+    </line>
+    <line>
+      <![CDATA[Product is added to Cart]]>
+    </line>
+    <line>
+      <![CDATA[TestCase addToCart has successfuly executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-14T12:19:28 IST" name="Suite" finished-at="2026-01-14T12:19:48 IST" duration-ms="20175">
+    <groups>
+    </groups>
+    <test started-at="2026-01-14T12:19:28 IST" name="Test" finished-at="2026-01-14T12:19:48 IST" duration-ms="20175">
+      <class name="org.automation.testNGFramework.TC_001_AddToCartTest">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:org.automation.testNGFramework.TC_001_AddToCartTest@4116aac9]" started-at="2026-01-14T12:19:28 IST" name="browserSetUp" finished-at="2026-01-14T12:19:38 IST" duration-ms="10521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.automation.testNGFramework.TC_001_AddToCartTest@4116aac9]" started-at="2026-01-14T12:19:38 IST" name="login" finished-at="2026-01-14T12:19:41 IST" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:0, instance:org.automation.testNGFramework.TC_001_AddToCartTest@4116aac9]" started-at="2026-01-14T12:19:41 IST" name="addToCart" finished-at="2026-01-14T12:19:46 IST" duration-ms="4585" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase addToCart has started]]>
+            </line>
+            <line>
+              <![CDATA[Product is added to Cart]]>
+            </line>
+            <line>
+              <![CDATA[TestCase addToCart has successfuly executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="logot()[pri:0, instance:org.automation.testNGFramework.TC_001_AddToCartTest@4116aac9]" started-at="2026-01-14T12:19:46 IST" name="logot" finished-at="2026-01-14T12:19:48 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logot -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:org.automation.testNGFramework.TC_001_AddToCartTest@4116aac9]" started-at="2026-01-14T12:19:48 IST" name="browserTearDown" finished-at="2026-01-14T12:19:48 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- org.automation.testNGFramework.TC_001_AddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
